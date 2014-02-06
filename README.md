@@ -6,7 +6,7 @@
 You have an array of names that are of mixed case. Write a method to convert this array of names to proper pronoun case.
 
 ##### Answer
-*To be answered...*
+See **problem1.rb** for code. In this problem, we just need to call the capitalize! method on each name in our array.
 
 #### Problem #2
 ##### Prompt
