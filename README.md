@@ -13,7 +13,9 @@ See **problem1.rb** for code. In this problem, we just need to call the capitali
 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder. What is the smallest positive number that is evenly divisble by all of the numbers from 1 to 20?
 
 ##### Answer
-*To be answered...*
+**232792560** is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20.
+
+See **problem2.rb** for code. In this problem, we need to find a number that is divisible by each value in a range of numbers. I used a counter to track how many numbers in the range were cleanly divisible by the current value.
 
 #### Problem #3
 ##### Prompt

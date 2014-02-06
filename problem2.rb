@@ -1,3 +1,5 @@
+require 'benchmark'
+
 def smallest_evenly_divisible_by(range)
   counter = range.begin
   max = range.end + 1
@@ -17,5 +19,5 @@ def smallest_evenly_divisible_by(range)
   puts "#{current_num} is the smallest number that can be divided by each of the numbers from #{range.begin} to #{range.end} without any remainder."
 end
 
-smallest_evenly_divisible_by(1..20)
+puts Benchmark.measure { smallest_evenly_divisible_by(1..20) }
 
